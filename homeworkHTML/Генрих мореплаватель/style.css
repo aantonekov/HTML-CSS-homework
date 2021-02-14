@@ -1,0 +1,82 @@
+.logo{
+	position:absolute;
+	top:10px;
+	right:;
+	bottom:;
+	left:25px;
+	width: 120px;	
+	height: 130px;
+	
+}
+.li_content{
+	list-style-type: none;
+	padding-inline-start: 30px;
+}
+.nav_content{
+		
+	font-size:13px;
+	position:absolute;
+	top:170px;
+	right:10px;
+	bottom:0px;
+	left:0px;
+	
+}
+.nav_participation{
+		
+	font-size:13px;
+	position:absolute;
+	top:280px;
+	right:10px;
+	bottom:0px;
+	left:0px;
+}
+.article{
+	position:absolute;
+	top:90px;
+	right:370px;
+	bottom:0px;
+	left:180px;
+	
+}
+
+a{
+	text-decoration: none;
+}
+.links{
+	padding:7px;
+	background-color:#f8f9fa;
+	width: 200px;	
+	height: 180px;
+	border: 1px solid black;
+	padding-left:25px;
+	padding-top:0px;
+	
+}
+.genrih{
+	border:1px solid #000000;
+	position:absolute;
+	top:80px;
+	right:0px;
+	bottom:0px;
+	left:1000px;
+	width: 320px;	
+	height: 820px;
+	text-align: center;
+}
+.genrih_img{
+	position:absolute;
+	top:50px;
+	right:0px;
+	bottom:0px;
+	left:25px;
+	width: 274px;	
+	height: 350px;
+
+}
+.genrih_h{
+	top: 30px;
+	background-color:#f8f9fa;
+	
+	
+}
