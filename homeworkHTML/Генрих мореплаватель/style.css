@@ -56,20 +56,21 @@ a{
 .genrih{
 	border:1px solid #000000;
 	position:absolute;
-	top:80px;
+	top:180px;
 	right:0px;
 	bottom:0px;
-	left:1000px;
-	width: 320px;	
+	left:1190px;
+	width: 290px;	
 	height: 820px;
 	text-align: center;
+	padding:0;
 }
 .genrih_img{
 	position:absolute;
 	top:50px;
 	right:0px;
 	bottom:0px;
-	left:25px;
+	left:9px;
 	width: 274px;	
 	height: 350px;
 
