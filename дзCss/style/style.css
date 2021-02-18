@@ -1,14 +1,14 @@
 body{
 	font-size:17px;
 }
-table {
+table{
   border: 1px solid black;
   border-collapse: collapse;
- }
- tr, td {
+}
+tr,td{
   border: 1px solid black;
   border-collapse: collapse;
- }
+}
 a{
 	text-decoration:none;
 	color:#000;
