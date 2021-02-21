@@ -14,8 +14,8 @@ a {
 }
 li {
 	list-style-type: none;
-   }
-   li::before {
+}
+li::before {
 	content: "►"; 
 	padding-right: 10px;
 }
