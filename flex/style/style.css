@@ -27,7 +27,6 @@ header {
 	background: rgba(0,0,0,.25);
 	position: sticky;
 	top:0;
-	
 }
 .header_section {
 	display: flex;
@@ -87,7 +86,6 @@ header {
 .stat_list {
 	width: 400px;
 	height: auto;
-	
 	ont-family: Gotham Narrow SSm A,Gotham Narrow SSm B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
     font-style: normal;
     font-size: 2rem;
@@ -101,7 +99,6 @@ header {
 .get_poster {
 	width: 250px;
 	height: auto;
-	
 	font-family: Gotham Narrow SSm A,Gotham Narrow SSm B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
     font-style: normal;
     font-weight: 800;
@@ -128,7 +125,6 @@ header {
 	background: linear-gradient(rgba(156,39,176,.2),#fff);
 }
 .part_flex-direction {
-	
 	display: flex;
 	padding: 30px;
 	flex-wrap: wrap;
@@ -145,12 +141,11 @@ header {
 	align-items: center;
 	background: linear-gradient(rgba(255,138,0,.2),#fff);
 }
-
-.part_flex-grow {display: flex;
+.part_flex-grow {
+	display: flex;
 	padding: 30px;
 	flex-wrap: wrap;
 	max-width: 100%;
 	align-items: center;
 	background: linear-gradient(rgba(255,138,0,.2),#fff);
-	
 }
