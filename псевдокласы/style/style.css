@@ -1,0 +1,17 @@
+.test {
+    background-color: #fff;
+    border-collapse: collapse;
+}
+TR,TD {
+    padding: 3px;
+    border: 1px solid #333;
+}
+table tr:nth-child(2n+2) {
+    background-color: yellow;
+}
+td:hover {
+    border: 5px solid blue;
+}
+table tr:last-child {
+    background-color: red;
+}
