@@ -5,7 +5,7 @@
 body {
     font-family: 'GoogleSans';
     background-image: url(/images/header/fon.png);
-    overflow: hidden; 
+    overflow: hidden;
 }
 header {
     width: 1920px;
@@ -379,6 +379,11 @@ nav{
 }
 
 /* section */
+section {
+    overflow-y: scroll;
+    height: 639px;
+    width: 1162px;
+}
 .start_header {
     display: flex;
     justify-content: space-between;
@@ -768,6 +773,7 @@ nav{
 .section_table {
     border: 2px solid #2A2B31;
     background: linear-gradient(rgba(29, 32, 36, 0.7) 100.23%, rgba(29, 32, 36, 0) 100%);
+    width: 757px;
 }
 .teble_item ol {
     margin-top: 0;
@@ -797,6 +803,7 @@ nav{
     grid-template-columns: 190px 190px 190px 190px;
     grid-template-rows: 24px;
     grid-template-areas: 
+    "div_1 div_2 div_3 div_4 "
     "div_5 div_6 div_7 div_8 ";
 }
 .table_div_1 {
@@ -825,9 +832,6 @@ nav{
     margin-top: 0px;
     height: 30px;
 }
-.table_div_5 img {
-
-}
 .table_div_6 {
     grid-area: div_6;
     padding-left: 64px;
@@ -845,4 +849,156 @@ nav{
     padding-left: 64px;
     margin-top: 0px;
     height: 30px;
+}
+
+
+.table--point {
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    text-align: center;
+}
+th {
+    font-size: 9px;
+    font-weight: normal;
+    color: white;
+}
+.td_1{
+    padding: 5px;
+}
+.th_1 {
+    text-align: left;
+    padding-left: 39px;
+    padding-top: 4px;
+    width: 115px;
+}
+.th_2 {
+    padding-left: 11px;
+}
+
+.th_3 {
+    padding-left: 33px;
+}
+
+.th_4 {
+    font-size: 11px;
+}
+
+.info--point {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 11px;
+
+}
+.td_2 img {
+    display: flex;
+    justify-content: start;
+}
+/* knife */
+.knife_section {
+    width: 292px;
+    border: 1px solid #2A2B31;
+    background: linear-gradient(rgba(29, 32, 36, 0.7) 100.23%, rgba(29, 32, 36, 0) 100%);
+}
+.knife_centr {
+    height: 271px;
+}
+.knife_header {
+    color: #fff;
+    font-size: 12px;
+    padding-top: 4px;
+    padding-left: 81px;
+}
+.knife_centr img{
+    height: 100px;
+    width: 100%;
+    height: 275px;
+}
+/* battle */
+.battle_item_1:first-child {
+    display: flex;
+    width: 252px;
+    margin-left: 3px;
+    height: 103px;
+    margin-top: 32px;
+    background: url(/images/container/battle/bg_1.png);
+    border-radius: 3px;
+}
+.battle_item_1 {
+    display: flex;
+    width: 252px;
+    margin-left: 3px;
+    height: 103px;
+    margin-top: 14px;
+    background: url(/images/container/battle/bg_1.png);
+    border-radius: 3px;
+}
+.battle_item_1:hover{
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #F4AC26;
+    filter: url(/images/container/battle/shadov.png);
+}
+.battle_item_2 {
+    display: flex;
+    width: 252px;
+    margin-left: 3px;
+    height: 103px;
+    margin-top: 13px;
+    background: url(/images/container/battle/bg_2.png);
+    border-radius: 3px;
+}
+.battle_item_2:hover{
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #F4AC26;
+}
+.first_player img {
+    width: 46px;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+.first_player p{
+    color: #fff;
+    font-size: 11px;
+    margin-top: -1px;
+    margin-left: 33px;
+    margin-bottom: 0;
+}
+.first_player h3 {
+    font-size: 11px;
+    margin-left: 25px;
+    margin-top: 1px;
+    color: #F9BE16;
+}
+.brush p {
+    color: rgba(255, 255, 255, 0.23);
+    margin-top: 34px;
+    margin-left: 36px;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.brush h1 {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 0;
+    margin-left: 28px;
+}
+.second_player img {
+    width: 46px;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+.second_player p {
+    color: #fff;
+    font-size: 11px;
+    margin-top: -1px;
+    margin-left: 33px;
+    margin-bottom: 0;
+}
+.second_player h3 {
+    font-size: 11px;
+    margin-left: 25px;
+    margin-top: 1px;
+    color: #F9BE16;
 }
