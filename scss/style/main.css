@@ -1,0 +1,105 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header_categori {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.header_categori a {
+  color: #000;
+  text-decoration: none;
+  margin: 10px;
+}
+.header_categori a:hover {
+  color: crimson;
+}
+
+.header_logo {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.header_logo .logo {
+  display: flex;
+  align-items: center;
+}
+.header_logo .logo img {
+  width: 200px;
+  height: 50px;
+}
+.header_logo .personal_office {
+  display: flex;
+  align-items: center;
+}
+.header_logo .personal_office .personal_phone {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #000;
+  height: 30px;
+  padding-right: 20px;
+}
+.header_logo .personal_office .personal_phone .icon_phone {
+  width: 20px;
+  height: 20px;
+}
+.header_logo .personal_office .personal_phone .icon_phone:hover {
+  fill: crimson;
+}
+.header_logo .personal_office .personal_phone p {
+  margin-left: 5px;
+}
+.header_logo .personal_office .user_icon {
+  display: flex;
+  align-items: center;
+}
+.header_logo .personal_office .user_icon .icon_user {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+.header_logo .personal_office .user_icon .icon_user:hover {
+  fill: crimson;
+}
+.header_logo .personal_office .user_icon p {
+  margin-left: 5px;
+}
+.header_logo .personal_office .last_icons .icon_like {
+  margin-left: 40px;
+  width: 20px;
+  height: 20px;
+}
+.header_logo .personal_office .last_icons .icon_like:hover {
+  fill: crimson;
+}
+.header_logo .personal_office .last_icons .icon_basket {
+  margin-left: 40px;
+  width: 20px;
+  height: 20px;
+}
+.header_logo .personal_office .last_icons .icon_basket:hover {
+  fill: crimson;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header_nav a {
+  text-decoration: none;
+  padding: 20px 30px;
+  font-size: 14px;
+  background-color: #b9b8b0;
+  color: #000;
+  font-weight: 200;
+}
+.header_nav a:hover {
+  background-color: #fff;
+  color: crimson;
+}/*# sourceMappingURL=main.css.map */

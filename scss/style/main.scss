@@ -1,0 +1,127 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header_categori {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    a {
+        color: #000;
+        text-decoration: none;
+        margin: 10px;
+
+        &:hover {
+            color: crimson;
+        }
+        
+        
+    }
+}
+.header_logo {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    .logo {
+        display: flex;
+        align-items: center;
+        img {
+            width: 200px;
+            height: 50px;
+        }
+     
+    }
+    .personal_office {
+        display: flex;
+        align-items: center;
+
+        .personal_phone {
+            display: flex;
+            align-items: center;
+            border-right: 1px solid #000;
+            height: 30px;
+            padding-right: 20px;
+    
+            .icon_phone {
+                width: 20px;
+                height: 20px;
+
+                &:hover {
+                    fill: crimson;
+                }
+            }
+            
+            p {
+                margin-left: 5px;
+                
+            }
+    
+        }
+        .user_icon {
+            display: flex;
+            align-items: center;
+            
+            .icon_user {
+                margin-left: 10px;
+                width: 20px;
+                height: 20px;
+                
+                &:hover {
+                    fill: crimson;
+                }
+            }
+            p {
+                margin-left: 5px;
+            }
+
+        }
+
+        .last_icons {
+
+            .icon_like {
+                margin-left: 40px;
+                width: 20px;
+                height: 20px;
+
+                &:hover {
+                    fill: crimson;
+                }
+
+            }
+            
+            .icon_basket {
+                margin-left: 40px;
+                width: 20px;
+                height: 20px;
+
+                &:hover {
+                    fill: crimson;
+                }
+
+            }
+        }
+    }
+}
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+        text-decoration: none;
+        padding: 20px 30px;
+        font-size: 14px;
+        background-color: rgb(185, 184, 176);
+        color: #000;
+        font-weight: 200;
+
+        &:hover {
+            background-color: #fff;
+            color: crimson;
+        }
+    }
+
+}
