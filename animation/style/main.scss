@@ -1,0 +1,137 @@
+@keyframes jump-y {
+
+    0% {
+       top:10px;
+    }
+    10% {
+        top: 147px;
+    }
+    20% {
+        top: 40px;
+    }
+    30% {
+        top: 107px;
+    }
+    40% {
+        top: 35px;
+    }
+    50% {
+        top: 77px;
+    }
+    60% {
+        top: 25px;
+    }
+    100% {
+        top: 41px;
+    }
+}
+
+@keyframes jump-x {
+
+    0% {
+        margin-left: 100px;
+      
+    }
+    25% {
+        margin-left: 208px;
+    }
+    50% {
+        margin-left: 308px;
+    }
+    100% {
+        margin-left: 385px;
+    }
+}
+@keyframes step {
+
+    100% {
+        height: 140px;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    
+
+    .ball  { 
+    
+        margin-top: 237px;
+        border: 1px solid red;
+        background-color: red;   
+        width: 10px;
+        height: 10px;
+        padding: 30px 30px;
+        border-radius: 50%;
+        animation: jump-y 5s linear infinite, jump-x 5s linear infinite;
+        position: absolute;
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+    
+        
+    }
+    .steps {
+
+        display: flex;
+        align-items: flex-end;
+        height: 200px;
+        margin-top: 289px;
+
+
+        .steps-1 {
+            width: 50px;
+            height: 50px;
+            background-color: cornflowerblue;
+            margin-top: 446px;
+            margin-left: 187px;
+            position: absolute;
+            animation: step 1s linear infinite;
+            animation-delay: 1s;
+            animation-iteration-count: 1;
+            animation-fill-mode: both;
+        }
+
+        .steps-2 {
+            width: 50px;
+            height: 80px;
+            background-color: cornflowerblue;
+            margin-top: 446px;
+            margin-left: 250px;
+            position: absolute;
+            animation: step 1s linear infinite;
+            animation-delay: 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: both;
+        }
+
+        .steps-3 {
+            width: 50px;
+            height: 110px;
+            background-color: cornflowerblue;
+            margin-top: 446px;
+            margin-left: 325px;
+            position: absolute;
+            animation: step 1s linear infinite;
+            animation-delay: 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: both;
+        }
+
+        .steps-4 {
+            width: 50px;
+            height: 140px;
+            background-color: cornflowerblue;
+            margin-top: 446px;
+            margin-left: 400px;
+            position: absolute;
+            animation: step 1s linear infinite;
+            animation-delay: 4s;
+            animation-iteration-count: 1;
+            animation-fill-mode: both;
+        }
+    }
+ }
+
