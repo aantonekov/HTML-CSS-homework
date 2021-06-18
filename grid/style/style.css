@@ -1,0 +1,38 @@
+.container {
+    width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 900px;
+    grid-template-rows: auto;
+    grid-template-areas:"logo"
+                        "content "
+                        "nav";
+}
+.logo {
+    grid-area: logo;
+}
+.content {
+    grid-area: content;
+}
+.nav {
+    grid-area: nav;
+}
+@media screen and (max-width: 650px) {
+   
+    .container {
+
+        width: 650px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        grid-template-areas: "logo   nav"
+                             "content content";
+    }
+    .content {
+        
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+    }
+
+}
